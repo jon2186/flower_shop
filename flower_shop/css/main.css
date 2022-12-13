@@ -1,0 +1,963 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url("../fonts/Montserrat-Regular.woff") format("woff"),
+        url("../fonts/Montserrat-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Montserrat Medium";
+    src: url("../fonts/Montserrat-Medium.woff") format("woff"),
+        url("../fonts/Montserrat-Medium.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Playfair Display Regular";
+    src: url("../fonts/PlayfairDisplay-Regular.woff") format("woff"),
+        url("../fonts/PlayfairDisplay-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Playfair Display Italic";
+    src: url("../fonts/PlayfairDisplay-Italic.woff") format("woff"),
+        url("../fonts/PlayfairDisplay-Italic.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Playfair Display Bold";
+    src: url("../fonts/PlayfairDisplay-Bold.woff") format("woff"),
+        url("../fonts/PlayfairDisplay-Bold.ttf") format("ttf");
+}
+
+body {
+    font-family: "Montserrat Regular", "Arial", sans-serif;
+    background: #FFFFFF;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+}
+
+.menu {
+    margin-top: 26px;
+    border-top: 1px solid #AE7C78;
+    border-bottom: 1px solid #AE7C78;
+}
+
+.header_menu {
+    display: flex;
+    margin: 0 120px 0 120px;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_menu li {
+    padding: 16px 0 16px 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #AE7C78;
+}
+
+.header_wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 82px;
+}
+
+.title_wrap {
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_title {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-family: "Playfair Display Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 134%;
+    color: #AE7C78;
+}
+
+.header_quote {
+    margin-top: 0;
+    margin-bottom: 64px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 134%;
+    color: #AE7C78;
+}
+
+.title_wrap span {
+    font-family: "Playfair Display Italic";
+}
+
+.button {
+    display: flex;
+    width: 285px;
+    height: 80px;
+    background: #D89999;
+    border-radius: 40px;
+    font-size: 16px;
+    line-height: 125%;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+
+.tulips {
+    padding: 58px 20px 0 23px;
+}
+
+.roses {
+    padding-bottom: 42px;
+}
+
+.benefits_wrap {
+    display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+}
+
+.benefits {
+    display: flex;
+}
+
+.middle {
+    margin-left: 49px;
+    margin-right: 43px;
+}
+
+.benefits_title {
+    font-family: "Montserrat Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    color: #AE7C78;
+    margin: 0 0 8px 0;
+}
+
+.benefits_quotes {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #AE7C78;
+    margin: 0;
+}
+
+.benefits_auto {
+    width: 82px;
+    height: 52px;
+    margin-right: 20px;
+}
+
+.benefits_flower {
+    width: 52px;
+    height: 52px;
+    margin-right: 20px;
+}
+
+.benefits_photo {
+    width: 59px;
+    height: 52px;
+    margin-right: 20px;
+}
+
+.benefits_quotes_wrap {
+    width: 285px;
+}
+
+.popular {
+    width: 794px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.popular h2 {
+    font-family: "Playfair Display Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+    letter-spacing: 0.02em;
+    color: #AE7C78;
+    margin: 0 0 36px 0;
+}
+
+.popular_bouquet_wrap {
+    display: flex;
+}
+
+.popular_list {
+    font-family: "Montserrat Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 121%;
+    color: #AE7C78;
+    margin-top: 27px;
+    margin-bottom: 20px;
+}
+
+.popular_quotes {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #AE7C78;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.popular_size {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #AE7C78;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.popular_price {
+    font-family: "Montserrat Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 121%;
+    color: #AE7C78;
+    margin-top: 0;
+    margin-bottom: 64px;
+}
+
+.flower-bouquet {
+    width: 387px;
+    height: 438px;
+    margin-left: 20px;
+}
+
+.slider_wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.slider_wrap svg:first-child {
+    margin-right: 20px;
+}
+
+.catalog_wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.catalog {
+    width: 388px;
+    height: 442px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.catalog h2 {
+    font-family: "Playfair Display Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+    color: #FFFFFF;
+    margin: 186px 0 8px 0;
+}
+
+.catalog p {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.wedding_bouquet {
+    background-image: linear-gradient(rgba(174, 124, 120, 0.6), rgba(174, 124, 120, 0.6)), url("../images/wedding_bouquet.jpg");
+}
+
+.bouquets_peonies {
+    background-image: linear-gradient(rgba(174, 124, 120, 0.6), rgba(174, 124, 120, 0.6)), url("../images/peony-flowers.jpg");
+    margin-left: 19px;
+    margin-right: 19px;
+}
+
+.bouquets_assortment {
+    background-image: linear-gradient(rgba(174, 124, 120, 0.6), rgba(174, 124, 120, 0.6)), url("../images/alyssa-strohmann.jpg");
+}
+
+.discount {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    background-color: #AE7C78;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.florist {
+    width: 590px;
+    height: 391px;
+}
+
+.discount_wrap h2 {
+    font-family: 'Playfair Display Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 134%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin: 40px 0 24px 102px;
+}
+
+.discount_wrap p {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 121%;
+    color: #FFFFFF;
+    margin: 0 121px 64px 102px;
+}
+
+.steps {
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.steps h2 {
+    font-family: "Playfair Display Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    color: #AE7C78;
+    text-align: center;
+    margin: 0;
+}
+
+.steps_wrap {
+    display: flex;
+    margin-top: 36px;
+}
+
+.steps_wrap div:not(:last-child) {
+    padding-right: 20px;
+}
+
+.step {
+    text-align: center;
+}
+
+.step p:not(:last-child) {
+    font-family: 'Montserrat Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    color: #AE7C78;
+}
+
+.step p {
+    margin: 0;
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #AE7C78;
+}
+
+.step p:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.news {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.news_bouquets_wrap {
+    display: grid;
+    grid-template-areas: "samantha demi""insung demi";
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.bouquets_samantha {
+    width: 285px;
+    height: 220px;
+    grid-area: samantha;
+}
+
+.bouquets_insung {
+    width: 285px;
+    height: 220px;
+    grid-area: insung;
+}
+
+.bouquets_demi {
+    width: 387px;
+    height: 460px;
+    grid-area: demi;
+}
+
+.news_wrap h2 {
+    width: 487px;
+    font-family: 'Playfair Display Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+    letter-spacing: 0.02em;
+    color: #AE7C78;
+    margin: 0;
+}
+
+.news_wrap p {
+    width: 387px;
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 121%;
+    color: #AE7C78;
+    margin: 40px 0;
+}
+
+.news_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 21px;
+}
+
+.facebook_icon {
+    margin-left: 21px;
+    margin-right: 19px;
+}
+
+.reviews {
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #AE7C78;
+}
+
+.reviews_wrap {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.reviews_wrap div {
+    width: 300px;
+}
+
+.reviews h2 {
+    font-family: 'Playfair Display Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #AE7C78;
+    margin: 40px 0;
+}
+
+.reviews_wrap div p:not(:last-child) {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #AE7C78;
+    margin: 0 0 16px 0;
+}
+
+.reviews_wrap div p {
+    font-family: 'Montserrat Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    color: #AE7C78;
+    margin: 0 0 64px 0;
+}
+
+.reviews_wrap div:not(:last-child) {
+    margin-right: 106px;
+}
+
+.contacts {
+    height: 644px;
+    background: url("../images/map.svg");
+    margin-top: 80px;
+    padding-top: 52px;
+}
+
+.contacts_wrap {
+    width: 386px;
+    height: 520px;
+    background: #F7FAFC;
+    box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
+    border-radius: 12px;
+    margin-left: 222px;
+    padding-top: 40px;
+}
+
+.contacts_wrap h2 {
+    font-family: 'Playfair Display Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+    display: flex;
+    align-items: center;
+    color: #AE7C78;
+    margin: 0 0 0 35px;
+}
+
+.contacts_wrap div {
+    margin-left: 35px;
+}
+
+.walk {
+    margin: 42px 0 0 0;
+}
+
+.address {
+    margin: 21px 0 0 0;
+}
+
+.mode {
+    margin: 32px 0 13px 0;
+}
+
+.days {
+    margin: 0;
+}
+
+.call {
+    margin: 30px 0 14px 0;
+}
+
+.phone {
+    margin: 0;
+}
+
+.write {
+    margin: 35px 0 17px 0;
+}
+
+.email {
+    margin: 0;
+}
+
+.contacts_top {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    display: flex;
+    align-items: center;
+    color: #AE7C78;
+}
+
+.contacts_bottom {
+    font-family: 'Montserrat Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    display: flex;
+    align-items: center;
+    color: #AE7C78;
+}
+
+.footer {
+    background: #AE7C78;
+    display: flex;
+}
+
+.navigation {
+    margin-top: 14px;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.navigation ul li a {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navigation ul li a:visited {
+    color: #FFFFFF;
+}
+
+.navigation ul li a:active {
+    color: #FFFFFF;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 68px;
+}
+
+.logo_bottom {
+    margin: 24px 103px 41px 125px;
+}
+
+.icons_bottom {
+    margin-top: 30px;
+    margin-left: 105px;
+}
+
+.facebook_bottom {
+    margin: 0 19px 0 21px;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 760px;
+    }
+
+    .header_wrap {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-top: 30px;
+    }
+
+    .header_menu {
+        margin: 0;
+    }
+
+    .tulips {
+        width: 60%;
+        padding: 10px 0;
+    }
+
+    .roses {
+        width: 60%;
+    }
+
+    .header_quote {
+        margin-bottom: 30px;
+    }
+
+    .benefits {
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .benefits_wrap {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .middle {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .benefits_quotes_wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits_quotes {
+        text-align: center;
+    }
+
+    .catalog {
+        height: 350px;
+    }
+
+    .catalog h2 {
+        margin-top: 100px;
+    }
+
+    .discount {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .florist {
+        margin-bottom: 10px;
+    }
+
+    .news_bouquets_wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bouquets_demi {
+        width: 285px;
+        height: 320px;
+    }
+
+    .news_wrap h2 {
+        width: 400px;
+    }
+
+    .logo_bottom {
+        margin: 24px 10px 41px 10px;
+    }
+
+    .navigation ul li:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .icons_bottom {
+        margin-left: 10px;
+    }
+
+    .icons_bottom img {
+        width: 20%;
+        height: 25%;
+    }
+
+    .facebook_bottom {
+        margin: 0 5px 0 5px;
+    }
+
+}
+
+@media (max-width: 790px) {
+    .container {
+        max-width: 576px;
+    }
+
+    .header_menu {
+        flex-direction: column;
+    }
+
+    .button {
+        width: 60%;
+        height: 60px;
+    }
+
+    .benefits_wrap {
+        margin-top: 10px;
+    }
+
+    .popular {
+        margin-top: 30px;
+    }
+
+    .flower-bouquet {
+        width: 326px;
+        height: 355px;
+    }
+
+    .description_bouwuet_wrap {
+        padding-left: 20px;
+    }
+
+    .catalog h2 {
+        font-size: 30px;
+    }
+
+    .florist {
+        margin: 0;
+        width: 577px;
+        height: 380px
+    }
+
+    .steps {
+        margin-top: 30px;
+    }
+
+    .news {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social_network {
+        margin-bottom: 10px;
+    }
+
+    .reviews {
+        margin-top: 30px;
+    }
+
+    .reviews_wrap div:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .contacts_wrap {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        width: 320px;
+        height: 480px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+    }
+
+    .logo_bottom {
+        width: 30%;
+        margin: 10px 0;
+    }
+
+    .icons_bottom img {
+        height: 30px;
+    }
+
+    .navigation ul {
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .popular {
+        width: 400px;
+    }
+
+
+    .popular_bouquet_wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header_wrap {
+        align-items: center;
+    }
+
+    .button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .description_bouwuet_wrap {
+        width: 400px;
+    }
+
+    .flower-bouquet {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .catalog h2 {
+        font-size: 22px;
+        margin-top: 40px;
+    }
+
+    .catalog {
+        height: 200px;
+    }
+
+    .discount {
+        margin-top: 40px;
+    }
+
+    .florist {
+        width: 480px;
+        height: 340px;
+    }
+
+    .discount_wrap h2 {
+        margin: 30px 0 24px 65px;
+    }
+
+    .discount_wrap p {
+        margin: 0 100px 30px 100px;
+    }
+
+    .steps_wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        width: 400px;
+        margin-bottom: 10px;
+    }
+
+    .news {
+        margin-top: 30px;
+    }
+
+    .reviews h2 {
+        margin: 20px 0;
+    }
+
+    .reviews_wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reviews_wrap div p {
+        margin: 0px 0 30px 0;
+    }
+}
